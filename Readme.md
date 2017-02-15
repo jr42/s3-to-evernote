@@ -8,7 +8,8 @@ This is an AWS Lambda function importing files uploaded to S3 into Evernote. Eac
 2. An Unix environment with GNU make, Python 2.7, pip and a configured AWS CLI
 3. A S3 bucket with files to be uploaded
 4. An IAM managed policy called `s3-to-evernote` which grants access to the bucket
-  ```json
+
+```json
   {
       "Version": "2012-10-17",
       "Statement": [
@@ -26,7 +27,7 @@ This is an AWS Lambda function importing files uploaded to S3 into Evernote. Eac
           }
       ]
   }
-  ```
+```
 
 ## Installation
 
